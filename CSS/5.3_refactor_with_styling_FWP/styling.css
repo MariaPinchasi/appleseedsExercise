@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+body {
+    background-color: pink;
+    font-family: 'Raleway', sans-serif;;
+}
+#header {
+    color:crimson;
+}
+.description {
+    color:darkmagenta;
+    font-weight: bold;
+}
+.card {
+    border: 2px blueviolet solid;
+    max-width: 300px;
+    margin: auto;
+}
+.card .downCard {
+    color:blueviolet;
+    padding: 10px;
+}
+
+
