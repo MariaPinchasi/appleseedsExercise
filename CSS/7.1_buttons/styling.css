@@ -1,0 +1,84 @@
+* {
+    background-color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+.option {
+    text-align: center;
+    padding: 10px;
+}
+
+.inner {
+    position: relative;
+    margin: 10px auto;
+    padding: 10px;
+    width: 200px;
+}
+.btn {
+    border: none;
+    position: absolute;
+}
+.left {
+    top:10px;
+    left:10px;
+    padding: 6px;
+}
+.right {
+    right:10px;
+    top:15px;
+}
+.blue{
+    background-color: blue;  
+}
+.yellow{
+    background-color: orange;  
+}
+.green,.red, .yellowF,.greenF {
+    border-radius: 10px;
+}
+.green {
+    background-color: green;
+}
+.red {
+    background-color: red;
+}
+.redF, .purpleF,.yellowF, .greenF {
+    background: transparent;
+    border: 2px solid;
+}
+.redF{
+    border-color: red;
+}
+.purpleF{
+    border-color: blueviolet;
+}
+.yellowF{
+    border-color: yellow;
+}
+.greenF{
+    border-color: green;
+}
+.blue:hover {
+    background-color: darkslateblue;  
+}
+.green:hover {
+    background-color: darkolivegreen;  
+}
+.yellow:hover {
+    background-color: darkgoldenrod;  
+}
+.red:hover {
+    background-color: darkred;  
+}
+.greenF:hover {
+    background-color: green;  
+}
+.yellowF:hover {
+    background-color: yellow;  
+}
+.redF:hover {
+    background-color: red;  
+}
+.purpleF:hover {
+    background-color:  blueviolet;  
+}
