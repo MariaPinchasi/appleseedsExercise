@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card {
+    max-width: 300px;
+    margin: 30px auto;
+
+}
+
+.cardDown {
+    background-color:darkblue;
+    max-width: 300px;
+    margin-top: -5px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8em;
+    color: aliceblue;
+}
+.places li {
+    display: inline;
+}
+.places a{
+    padding: 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.places a:hover{
+    color: brown;
+}
