@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+.container{
+    height: 100vh;
+}
+.box{
+    border: grey solid 1px;
+      padding: 1rem;
+      width: 6rem;
+      height: 6rem;
+}
+.box1{
+    background-color: green;
+}
+.box2{
+    background-color: blue;
+}
+.box3{
+    background-color: red;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: end;
+    
+}

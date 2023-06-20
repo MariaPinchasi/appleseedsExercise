@@ -1,0 +1,17 @@
+.navContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem 2rem;
+    background-color: rgb(62, 65, 65);
+}
+.navbar {
+    display: flex;
+    flex-direction: column;
+}
+.navContainer h1{
+    padding-bottom: 1rem;
+}
+.navbar li {
+    padding: 0.6rem 0;
+}
