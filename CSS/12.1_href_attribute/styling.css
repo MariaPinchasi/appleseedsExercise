@@ -1,0 +1,3 @@
+.link::after{
+    content: 'website (http://google.com/)';
+}

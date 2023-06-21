@@ -7,7 +7,7 @@ html{
     font-size: 62.5%;
 }
 .container{
-    height: 100vh;
+    height: 50vh;
 }
 .box{
     border: grey solid 1px;
@@ -27,6 +27,6 @@ html{
 .container{
     display: flex;
     flex-direction: column;
-   justify-content: space-between;
+   justify-content: space-around;
     
 }

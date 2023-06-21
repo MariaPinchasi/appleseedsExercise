@@ -1,0 +1,13 @@
+.tooltip{
+    position: relative;
+}
+.tooltip:hover::after{
+    content:'click here'; 
+    position: absolute;
+    top: -12px;
+    height: 1rem;
+    width:4rem;
+    border-radius: 0.4rem;
+    background-color: yellow;
+    opacity: 0.9;
+}

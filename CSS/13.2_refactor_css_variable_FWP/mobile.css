@@ -1,0 +1,13 @@
+.navBar {
+    position:static;
+}
+
+.navBar li{
+    float: none;
+    text-align: center;
+}
+.navBar li a {
+    padding: 5px;
+    border-bottom:white dotted 1px ;
+}
+
