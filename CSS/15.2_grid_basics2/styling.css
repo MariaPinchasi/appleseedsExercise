@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+.container{
+    max-width: 80rem;
+    display: grid;
+    gap: 1rem;
+    padding: 5rem;
+    grid-template-areas:
+    'red-box red-box red-box red-box'
+    'blue blue green green'
+    'blue blue purple purple2';
+}
+.box{
+    padding: 7rem;
+    border-radius: 1rem;
+}
+
+.red{
+    background-color: red;
+    grid-area: red-box;
+}
+.blue{
+    background-color: blue;
+    grid-area: blue;
+}
+.green
+{
+    background-color: green;
+    grid-area: green;
+}
+.purple
+{
+    background-color: purple;
+    grid-area: purple;
+}
+.purple2
+{
+    background-color: purple;
+    grid-area: purple2;
+}
