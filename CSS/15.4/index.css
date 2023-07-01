@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font: 62.5%;
+}
+
+.grid_container{
+    max-width: 60rem;
+    margin: auto;
+    height: 30rem;
+    padding: 2rem;
+    display: grid;
+    gap: 0.5rem;
+
+    grid-template-areas: 
+    'n1 n1 n2 n2 n2 n3 n4 n4'
+    'n1 n1 n2 n2 n2 n3 n4 n4'
+    'n5 n5 n2 n2 n2 n8 n8 n9'
+    'n5 n5 n6 n6 n7 n8 n8 n9'
+    'n5 n5 n6 n6 n13 n13 n13 n9'
+    'n10 n11 n11 n12 n13 n13 n13 n14'
+    'n10 n11 n11 n12 n13 n13 n13 n14';
+}
+/* .grid_container > div{
+    padding: 5rem;
+} */
+.photo1{
+    background: url(/CSS/15.4/img/1.jpeg) no-repeat center center/cover;
+    grid-area: n1;
+}
+    
+.photo2{
+    background: url(/CSS/15.4/img/2.jpeg) no-repeat center center/cover;
+    grid-area: n2;
+}
+.photo3{
+    background: url(/CSS/15.4/img/3.jpeg) no-repeat center center/cover;
+    grid-area: n3;
+}
+.photo4{
+    background: url(/CSS/15.4/img/4.jpeg) no-repeat center center/cover;
+    grid-area: n4;
+}
+.photo5{
+    background: url(/CSS/15.4/img/5.jpeg) no-repeat center center/cover;
+    grid-area: n5;
+}
+.photo6{
+    background: url(/CSS/15.4/img/6.jpeg) no-repeat center center/cover;
+    grid-area: n6;
+}
+.photo7{
+    background: url(/CSS/15.4/img/7.jpeg) no-repeat center center/cover;
+    grid-area: n7;
+}
+.photo8{
+    background: url(/CSS/15.4/img/8.jpeg) no-repeat center center/cover;
+    grid-area: n8;
+}
+.photo9{
+    background: url(/CSS/15.4/img/9.jpeg) no-repeat center center/cover;
+    grid-area: n9;
+}
+.photo10{
+    background: url(/CSS/15.4/img/10.jpeg) no-repeat center center/cover;
+    grid-area: n10;
+}
+.photo11{
+    background: url(/CSS/15.4/img/11.jpeg) no-repeat center center/cover;
+    grid-area: n11;
+}
+.photo12{
+    background: url(/CSS/15.4/img/12.jpeg) no-repeat center center/cover;
+    grid-area: n12;
+}
+.photo13{
+    background: url(/CSS/15.4/img/13.jpeg) no-repeat center center/cover;
+    grid-area: n13;
+}
+.photo14{
+    background: url(/CSS/15.4/img/14.jpeg) no-repeat center center/cover;
+    grid-area: n14;
+} 
