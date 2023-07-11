@@ -1,0 +1,16 @@
+const message = "You enter a dimly lit room.";
+const treasureCount = 0;
+const key={};
+const isTrapActivated = false;
+const secretPassage = null;
+let mysteriousArtifact;
+const sym2 = Symbol("foo");
+const ancientSymbol = Symbol("key");
+console.log(typeof message);
+console.log(typeof treasureCount);
+console.log(typeof key);
+console.log(typeof isTrapActivated);
+console.log(typeof secretPassage);
+console.log(typeof mysteriousArtifact);
+console.log(typeof ancientSymbol);
+console.log(typeof sym2);
